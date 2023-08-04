@@ -1,0 +1,9 @@
+directus
+docker-compose.beta.yml
+docker-compose.dev.yml
+docker-compose.yml
+dockerfile
+.devcontainer
+.env*
+!*.env
+.github
