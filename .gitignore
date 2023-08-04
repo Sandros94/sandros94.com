@@ -1,20 +1,23 @@
-# v1.0.0
-
-node_modules
-npm-debug.log
-*.log*
-.npm
+# Nuxt dev/build outputs
+.output
 .nuxt
 .nitro
 .cache
-.output
-*.env
 dist
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
 
-# OSX
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
 .DS_Store
-.AppleDouble
-.LSOverride
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
