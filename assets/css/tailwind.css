@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.dark body {
+html.dark {
   @apply bg-customNeutral-950;
 }
