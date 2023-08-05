@@ -1,14 +1,4 @@
-# v1.1.0
-
-# VSCode
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-
-# OSX
-.DS_Store
-.AppleDouble
-.LSOverride
+# .gitignore v1.1.1
 
 
 # Nuxt dev/build outputs
@@ -21,16 +11,23 @@ dist
 # Node dependencies
 node_modules
 
-# Logs
-logs
-*.log
-
-# Misc
-.DS_Store
-.fleet
-.idea
-
 # Local env files
 .env
 .env.*
 !.env.example
+
+# Logs
+logs
+*.log
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+.fleet
+.idea

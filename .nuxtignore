@@ -1,9 +1,25 @@
+# .nuxtignore v1.1.0
+
+
+# Docker
+docker*
+
+# Directus
 directus
-docker-compose.beta.yml
-docker-compose.dev.yml
-docker-compose.yml
-dockerfile
+
+# Local env files
+*.env
+!.env
+.env.example
+!.env.*
+
+# VSCode
+.vscode
 .devcontainer
-.env*
-!*.env
-.github
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+.fleet
+.idea
