@@ -1,3 +1,16 @@
+# v1.1.0
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
 # Nuxt dev/build outputs
 .output
 .nuxt
